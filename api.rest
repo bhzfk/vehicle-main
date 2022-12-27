@@ -1,0 +1,21 @@
+GET http://api.fahrzeugtool.inosup.org/api/brands/ HTTP/1.1
+
+###
+
+POST http://api.fahrzeugtool.inosup.org/api/getmodels/ HTTP/1.1
+Content-Type: application/json
+
+{"w":"27"}
+
+###
+
+POST http://api.fahrzeugtool.inosup.org/api/getcategories HTTP/1.1
+Content-Type: application/json
+
+{"w":"3"}
+
+###
+
+GET http://api.fahrzeugtool.inosup.org/api/detectPreparationCost/278?id=2 HTTP/1.1
+
+###
